@@ -8,14 +8,34 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <h1 class="h1">UPLOAD PAGE</h1>
-            <form action="" method="post">
-                <input type="file" name="" id="">
-                <button type="submit" class="btn btn-primary">Browse</button>
-            </form>
+    <form class="row g-3 m-5 border rounded border-danger">
+      <div class="col-md-12 pt-3">
+        <h2 class="h2 text-danger text-center">UPLOAD FORM</h2>
+      </div>
+        <div class="col-md-6 pt-3">
+          <label for="firstName" class="form-label text-danger">First Name</label>
+          <input type="text" class="form-control" id="firstName">
         </div>
-    </div>
+        <div class="col-md-6 pt-3">
+          <label for="lastName" class="form-label text-danger">Last Name</label>
+          <input type="text" class="form-control" id="lastName">
+        </div>
+        <div class="col-md-6 pt-3">
+          <label for="email" class="form-label text-danger">Email</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        </div>
+        <div class="col-md-6 pt-3">
+          <label for="coutry" class="form-label text-danger">Country</label>
+          <input type="text" class="form-control" id="country">
+        </div>
+        <div class="col-md-6 pt-3">
+          <label for="file" class="form-label text-danger">File</label>
+          <input type="file" class="form-control-file" id="file">
+        </div>
+        <div class="col-12 py-3">
+          <button type="submit" class="btn btn-danger">Submit</button>
+        </div>
+      </form>
 </body>
 </html>
