@@ -14,20 +14,20 @@
       </div>
         <div class="col-md-6 pt-3">
           <label for="firstName" class="form-label text-danger">First Name</label>
-          <input type="text" class="form-control" id="firstName" required>
+          <input type="text" class="form-control" id="firstName" name="firstname" required>
         </div>
         <div class="col-md-6 pt-3">
           <label for="lastName" class="form-label text-danger">Last Name</label>
-          <input type="text" class="form-control" id="lastName" required>
+          <input type="text" class="form-control" id="lastName" name="lastname" required>
         </div>
         <div class="col-md-6 pt-3">
           <label for="email" class="form-label text-danger">Email</label>
-          <input type="email" class="form-control" id="email" required>
+          <input type="email" class="form-control" id="email" name="email" required>
         </div>
         </div>
         <div class="col-md-6 pt-3">
           <label for="state" class="form-label text-danger">State</label>
-          <input type="text" class="form-control" id="state" required>
+          <input type="text" class="form-control" id="state" name="state" required>
         </div>
         <div class="col-md-6 pt-3">
           <label for="customerFile" class="form-label text-danger">File</label>
