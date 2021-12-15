@@ -1,6 +1,8 @@
 <?php
 
+# region - Database Connection file
 include 'conn.php';
+# endregion
 
 # region - Declare some values
 $maxFileSize = 200000;
@@ -14,6 +16,7 @@ $lastname = $_POST["lastname"];
 $email = $_POST["email"];
 $state = $_POST["state"];
 $filename = $_FILES["customerFile"]["name"];
+# endregion
 
 # region - Retrieve upload contents from user
 $rawFileObject = $_FILES["customerFile"];
@@ -48,7 +51,9 @@ if ($isFileOkForUpload) {
     $newFileName = $uniqId."_".$rawFileObject["name"];
     $isUploadSuccessful = move_uploaded_file($rawFileObject["tmp_name"], $uploadsDir.$newFileName);
 
-    $query = "INSERT INTO ORDERS (FIRST_NAME,LAST_NAME,EMAIL,STATE,FILE_NAME) VALUES ('$firstname', '$lastname', '$email', '$state', '$filename')";
+    # region - Record info on database
+    $query = "INSERT INTO ORDERS (FIRST_NAME,LAST_NAME,EMAIL,STATE,FILE_NAME) VALUES ('$firstname', '$lastname', '$email', '$state', '$newFileName')";
+    # endregion
 
     if (($isUploadSuccessful) & (mysqli_query($conn, $query))) {
         header("Location: ./success.php");

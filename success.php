@@ -13,7 +13,7 @@
         </div>
         <div class="col-md-4 m-5 p-5 border rounded border-danger text-center">
             <h2>File uploaded successfully!!!</h2>
-            <button class="btn btn-danger"><a href="./upload_bootstrap.html" class="text-white">OK</a></button>
+            <button class="btn btn-danger"><a href="./uploaded_data.php" class="text-white">OK</a></button>
         </div>
         <div class="col-md-4">
         </div>
