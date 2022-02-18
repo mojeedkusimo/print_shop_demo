@@ -1,0 +1,16 @@
+{
+    "name": "vendor/name",
+    "description": "Testing deployment to heroku",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Name\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mojeedkusimo",
+            "email": "mkusimo90@gmail.com"
+        }
+    ],
+    "require": {}
+}

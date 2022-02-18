@@ -1,32 +1,13 @@
-# PrintShop
+# DEPLOYMENT STEPS
 
-## iSTEMLabsAfrica 3D Printing, C.N.C Carving and Laser Printing Service
+### 1. Get a free heroku account
 
-![Snapmaker 2.0, 3-in-1 Printer](https://github.com/inspaya/print_shop/blob/231685692687a71d8e85d4726c86e078b44af4a5/images/snapmaker.png)
+### 2. Install heroku CLI
 
-## About this Project
-The [Snapmaker 2.0, 3-in-1]() printer is available at the iSTEMLabsAfrica Innovation Center. We want customers to visit a specific URL at which they can do the following:
+### 2. Install Composer
 
-* Order prints from available designs listed on our online shop.
-* Request custom design work to be done
-* Upload their own designs for subsequent printing
+### 3. Initialize composer and git for your project
 
-Prints are then produced in 3D (in plastic), Laser (on surfaces like metal, wood, glass) or as Computer Numerically Computed (C.N.C) carvings (wood, glass, metal), packaged and shipped to the customer.
+### 4. Create app name on heroku using: heroku create app-name
 
-## Sample Videos of what the Snapmaker can be used for
-
-* [Snapmaker A250 Official Video](https://www.youtube.com/watch?v=s71WvJfo7J0)
-
-## Similar Online Services
-
-The following websites/companies offer services similar to what we want to do:
-
-* [Sculpteo](https://www.sculpteo.com/en/)
-* [SendCutSend](https://sendcutsend.com/)
-* [Ponoko](https://www.ponoko.com/3d-printing)
-
-# Solution Architecture
-
-# Tools/Technology
-
-# Development Team
+### 5. Push app to heroku repo.
