@@ -8,8 +8,10 @@
 
 ### 3. Initialize composer and git for your project
 
-### 4. Create app name on heroku using: heroku create app-name
+### 4. Setup environment variables
 
-### 5. Push app to heroku repo: heroku push heroku master
+### 5. Create app name on heroku using: heroku create app-name
 
-### 6. Provision MySQL DB: heroku addons:create cleardb:ignite
+### 6. Push app to heroku repo: heroku push heroku master
+
+### 7. Provision MySQL DB: heroku addons:create cleardb:ignite
