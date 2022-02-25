@@ -12,6 +12,7 @@
         <div class="col mt-5 text-center">
             <h2 class="h2">Welcome To Print Shop!!!</h2>
            <a href="./upload_bootstrap.php" class="btn btn-danger text-white">Get a Quote</a>
+           <a href="./uploaded_data.php" class="btn btn-danger text-white">View Samples</a>
         </div>
     </div>
 </body>
