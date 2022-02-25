@@ -10,4 +10,6 @@
 
 ### 4. Create app name on heroku using: heroku create app-name
 
-### 5. Push app to heroku repo.
+### 5. Push app to heroku repo: heroku push heroku master
+
+### 6. Provision MySQL DB: heroku addons:create cleardb:ignite
