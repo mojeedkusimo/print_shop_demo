@@ -27,3 +27,5 @@
 ### 10. To connect heroku mysql database, use: 
 
 #### mysql -uYOUR_USERNAME -pYOUR_PASSWORD YOUR_DATABASE_NAME --host=YOUR_HOST
+
+### 11. To monitor heroku log, use: heroku logs --tail
