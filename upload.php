@@ -38,10 +38,10 @@ if ($rawFileObject["size"] <= 0 || $rawFileObject["size"] > $maxFileSize) {
 }
 
 # 3) Is file content valid (e.g. valid jpg or jpeg)?
-if (imagecreatefromjpeg($rawFileObject["tmp_name"]) == false) {
-    $isFileOkForUpload = false;
-    echo "Sorry, there was a problem with the file you are trying to upload <br>";
-}
+// if (imagecreatefromjpeg($rawFileObject["tmp_name"]) == false) {
+//     $isFileOkForUpload = false;
+//     echo "Sorry, there was a problem with the file you are trying to upload <br>";
+// }
 // # endregion
 
 # region - Perform Upload
