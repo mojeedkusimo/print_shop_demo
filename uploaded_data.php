@@ -40,7 +40,7 @@
         </div>
         <div class="row mb-5">
             <div class="col text-center">
-                <a href="/print_shop_demo" class="btn btn-danger inline-block">Go Home</a>
+                <a href="/" class="btn btn-danger inline-block">Go Home</a>
             </div>
         </div>
     </div>
